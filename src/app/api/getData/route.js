@@ -8,7 +8,7 @@ export async function GET() {
   } catch (error) {
     console.error("Error fetching data from the database:", error);
     return NextResponse.json(
-      { error: "ERROR 500:" + error + ". DATABASE HOST WAS: " + process.env.DB_HOST},
+      { error: "ERROR 500:" + error + ". DATABASE HOST WAS: " + process.env.DB_HOST + ". DATABASE PORT WAS: " + process.env.DB_PORT},
       { status: 500 }
     );
   }
