@@ -12,7 +12,7 @@ export const getSessionPoints = async () => {
 
     try {
         const response = await callApi(
-            process.env.DOMAIN + `/api/getPoints?session_id=${sessionId}`,
+            `/api/getPoints?session_id=${sessionId}`,
             "GET"
         );
 
