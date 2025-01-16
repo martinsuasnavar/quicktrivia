@@ -1,5 +1,5 @@
 import mysql from 'mysql2/promise';
-import { env } from 'process';
+//import { env } from 'process';
 
 let connection
 

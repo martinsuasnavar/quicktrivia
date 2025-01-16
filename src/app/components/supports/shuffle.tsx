@@ -1,5 +1,3 @@
-import { Globals } from "../../globals";
-
 export function shuffle(array: any[]) {
   let currentIndex = array.length;
 

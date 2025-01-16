@@ -1,11 +1,11 @@
 'use client';
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import AnswerButton from "../buttons/answer-button";
 import { shuffle } from "../supports/shuffle";
 import Image from "next/image";
-import randomCharacters from "../supports/random-characters";
-import { globalButtons, globalButtonStates, Globals } from "../../globals";
+//import randomCharacters from "../supports/random-characters";
+import { globalButtons } from "../../globals";
 import { callApi } from "../../api/fetch";
 import { getSessionPoints } from "../supports/get-points";
 import Cookies from "js-cookie";
@@ -25,10 +25,10 @@ export default function AnswersSection({ posts, onUpdate, onShuffleButtons, allo
 
     const hideTime = 5000;
 
-    let newStates = ['none','none','none','none']
+    //let newStates = ['none','none','none','none']
 
     let answerButtons: JSX.Element[] = [];
-    let newAnswerButtons: JSX.Element[] = [];
+    //let newAnswerButtons: JSX.Element[] = [];
     let questionText = "Loading...";
    
 
@@ -51,9 +51,9 @@ export default function AnswersSection({ posts, onUpdate, onShuffleButtons, allo
  
 
    
-    const shuffleAnswers = (answersList: JSX.Element[]) => {
+    /*const shuffleAnswers = (answersList: JSX.Element[]) => {
         return shuffle([...answersList]);
-    };
+    };*/
     
     const hideAnswerResults = () => {
         isIncorrectAnswer(false);

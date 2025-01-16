@@ -21,9 +21,10 @@ export default function AnswerButton({children, onClick, state}: Props){
         break;
     }
 
+    /*
     const setState = () => {
 
-    }
+    }*/
     
     return(
         <div onClick={onClick} className={`transition-transform duration-300 transform hover:scale-105 border-solid border-2 border-black ${bgColor} text-center h-10 w-full cursor-pointer`}>

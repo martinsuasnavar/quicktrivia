@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import AnswersSection from "@/app/components/containers/answers-section";
-import randomCharacters from "@/app/components/supports/random-characters";
-import { Globals } from "../globals";
+//import randomCharacters from "@/app/components/supports/random-characters";
+//import { Globals } from "../globals";
 import { shuffle } from "@/app/components/supports/shuffle";
 
 export default function Home() {
