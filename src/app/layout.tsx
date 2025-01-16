@@ -38,7 +38,7 @@ export default function RootLayout({
           <div> Trivia API provided by <a href="https://opentdb.com/">Open Trivia Database</a></div>
         
           <div className="rounded-md font-semibold mt-10 bg-white text-black w-28 mx-auto p-0.5">CONTACT</div>
-          <a href="https://suasnavardev.vercel.app">➤ Mars Developer</a>
+          <a href="https://suasnavardev.vercel.app">➤ suasnavar.dev</a>
         </footer>
       </body>
     </html>
