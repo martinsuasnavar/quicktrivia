@@ -21,7 +21,7 @@ export default function NavBar() {
 
     return (
         <div className="font-semibold p-4 bg-black w-full fixed top-0">
-            <div className="float-right mr-2 flex">
+            <div className="float-right mr-2 h-10 flex">
                 {/*<div className="text-yellow-500 mr-2">
                     {points !== null ? points : "0"}
                 </div>
