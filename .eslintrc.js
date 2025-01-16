@@ -4,5 +4,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-explicit-any': 'off', // Ejemplo: desactivar regla específica
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'react/jsx-key': 'off', // Desactiva la regla react/jsx-key
   },
 };
