@@ -1,6 +1,10 @@
 import AnswerButton from "./components/buttons/answer-button";
 
-let globalButtons  = {states: ['none','none','none','none'], value: [<AnswerButton></AnswerButton>], allowSelection: true};
+
+const defaultMethod = () =>{
+
+}
+let globalButtons  = {states: ['none','none','none','none'], value: [<AnswerButton children="" onClick={defaultMethod} state=""></AnswerButton>], allowSelection: true};
 export { globalButtons };
 
 let globalButtonStates  = {value: ["none","none","none","none"]};
