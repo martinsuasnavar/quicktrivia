@@ -8,7 +8,7 @@ export async function GET() {
   } catch (error) {
     console.error("Error fetching data from the database:", error);
     return NextResponse.json(
-      { error: "Error fetching data from the database" },
+      { error: "ERROR 500:" + error },
       { status: 500 }
     );
   }
