@@ -10,7 +10,7 @@ export default function CreateSession() {
     const createSession = async (newSessionKey) => {
         try {
             const response = await callApi(
-                `http://localhost:3000/api/postData`,
+                process.env.DOMAIN + `/api/postData`,
                 "POST",
                 { session_id: newSessionKey, points: 0 }
             );

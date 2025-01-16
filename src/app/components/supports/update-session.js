@@ -32,7 +32,7 @@ export default function UpdateSession() {
 
   
         const result = await callApi(
-            `http://localhost:3000/api/putData`,
+            process.env.DOMAIN + `/api/putData`,
             "PUT",
             { session_id: sessionId, points: newPoints }
         );
